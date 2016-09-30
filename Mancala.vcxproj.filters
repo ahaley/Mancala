@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a0e95734-5661-439f-bd14-d8f1d1e9bcfd}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{68b0b96b-db15-4d37-a8f0-919811070e0f}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Language Tools">
+      <UniqueIdentifier>{2994abc1-cc64-495e-8fde-0b97d536bb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Mancala">
+      <UniqueIdentifier>{f085d0a8-23b5-4e9a-985c-935cf1f3be3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GP">
+      <UniqueIdentifier>{e54791cb-959f-4ee5-80ef-749db5a05182}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{b2dae6d6-7dbf-4821-9f4a-4f44a9ccf5d1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBed.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Interpreter.cpp">
+      <Filter>Language Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Translater.cpp">
+      <Filter>Language Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="MHP.cpp">
+      <Filter>Mancala</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Mancala</Filter>
+    </ClCompile>
+    <ClCompile Include="GodProc.cpp">
+      <Filter>GP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayingField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestBed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interpreter.h">
+      <Filter>Language Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Translater.h">
+      <Filter>Language Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Mancala.h">
+      <Filter>Mancala</Filter>
+    </ClInclude>
+    <ClInclude Include="MHP.h">
+      <Filter>Mancala</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>Mancala</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Mancala</Filter>
+    </ClInclude>
+    <ClInclude Include="GodProc.h">
+      <Filter>GP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,26 @@
+(LESS_THAN
+  (MULTIPLY
+    (AND
+      (MULTIPLY
+        (MANCALA
+          2)
+        (ADD
+          4
+          0))
+      (DIVIDE
+        (NOT
+          5)
+        (OR
+          3
+          5)))
+    (AND
+      (DIVIDE
+        (GREATER_THAN
+          4
+          4)
+        (AND
+          3
+          0))
+      (MANCALA
+        (NOT
+          0))))
