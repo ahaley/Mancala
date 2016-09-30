@@ -325,7 +325,7 @@ void GodProc::Print_Report(int report_num)
 		if (pool[z].state == READY)
 		{
 			fout << "THS number " << z << endl;
-			fout << translater.Translate_THP(&pool[z], 0, 1) << endl << endl;
+			fout << translater.Translate_MHP(&pool[z], 0, 1) << endl << endl;
 		}
 	}
 	fout.close();
